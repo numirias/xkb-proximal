@@ -14,5 +14,4 @@ partial default xkb_types "default" {
 	level_name[Level4] = "Shift+AltGr";
         level_name[Level5] = "Fn";
     };
-
-}
+};
