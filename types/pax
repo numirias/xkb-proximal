@@ -1,6 +1,6 @@
 partial default xkb_types "default" {
 
-    type "FIVE_LEVEL_CUSTOM" {
+    type "FIVE_LEVEL_PAX" {
 	modifiers = Shift+LevelThree+LevelFive;
 	map[None] = Level1;
 	map[Shift] = Level2;

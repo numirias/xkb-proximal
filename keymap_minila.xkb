@@ -2,6 +2,6 @@ xkb_keymap {
   xkb_keycodes  { include "evdev+aliases(qwerty)+minila" };
   xkb_types     { include "complete+custom" };
   xkb_compat    { include "complete" };
-  xkb_symbols   { include "pc+de(nodeadkeys)+inet(evdev)+capslock(escape)+paxkeys+simulate_fn" };
+  xkb_symbols   { include "pc+de(nodeadkeys)+inet(evdev)+capslock(escape)+pax+simulate_fn" };
   xkb_geometry  { include "thinkpad(us)" };
 };

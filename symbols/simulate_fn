@@ -7,4 +7,3 @@ default xkb_symbols "simulate_fn" {
     };
 
 };
-
