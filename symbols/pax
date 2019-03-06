@@ -174,5 +174,5 @@ xkb_symbols "pax" {
         symbols[Group1]= [            less,         greater,             bar,       brokenbar ]
     };
 
-    key  <ESC> {         [          Escape ] };
+    key  <ESC> {         [          asciicircum, degree ] };
 };
