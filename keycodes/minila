@@ -8,5 +8,5 @@ default xkb_keycodes "minila" {
     // Muhekan key emits left alt
     <LALT> = 102;
     // Kana key emits right Ctrl
-    <RCTL> = 101;
+    //<RCTL> = 101;
 };

@@ -18,9 +18,23 @@ xkb_symbols "pax" {
 
     key.type[Group1] = "FOUR_LEVEL";
 
+    key <AE01> { [ 1,             exclam,     onesuperior,   exclamdown, XF86AudioMute ] };
+    key <AE02> { [ 2,             quotedbl,   twosuperior,   oneeighth ] };
+    key <AE03> { [ 3,             dead_diaeresis,    threesuperior, sterling ] };
+    key <AE04> { [ 4,             dollar,     onequarter,    currency ] };
+    key <AE05> { [ 5,             percent,    onehalf,       threeeighths ] };
+    key <AE06> { [ 6,             ampersand,  notsign,       fiveeighths ] };
+    key <AE07> { [ 7,             slash,      braceleft,     seveneighths ] };
+    key <AE08> { [ 8,             parenleft,  bracketleft,   trademark, XF86RFKill ] };
+    key <AE09> { [ 9,             parenright, bracketright,  plusminus ] };
+    key <AE10> { [ 0,             equal,      BackSpace,     BackSpace ] };
+    key <AE11> { [ ssharp,        question,   backslash,     questiondown, U1E9E ] };
+    key <AE12> { [ acute,         grave,      cedilla,       cedilla ] };
+
+
 
     key <BKSP> {         [       BackSpace,       BackSpace ] };
-    key  <TAB> {         [             Tab,    ISO_Left_Tab ] };
+    key  <TAB> {         [             Tab,    Tab ] };
     key <AD01> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
         symbols[Group1]= [               q,               Q,              at,     Greek_OMEGA ]
@@ -51,7 +65,7 @@ xkb_symbols "pax" {
     };
     key <AD08> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [               i,               I,          period,          period ]
+        symbols[Group1]= [               i,               I,          equal,          period ]
     };
     key <AD09> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
@@ -61,9 +75,9 @@ xkb_symbols "pax" {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
         symbols[Group1]= [               p,               P,        asterisk,           THORN ]
     };
-    key <AD11> {
+    key <AD11> { //ü
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [      udiaeresis,      Udiaeresis,       diaeresis,       diaeresis ]
+        symbols[Group1]= [      0,      0,       diaeresis,       diaeresis ]
     };
     key <AD12> {
         type= "FOUR_LEVEL",
@@ -93,7 +107,7 @@ xkb_symbols "pax" {
     };
     key <AC06> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [               h,               H,      numbersign,               6 ]
+        symbols[Group1]= [               h,               H,      minus,               6 ]
     };
     key <AC07> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
@@ -105,15 +119,15 @@ xkb_symbols "pax" {
     };
     key <AC09> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [               l,               L,        asterisk,               9 ]
+        symbols[Group1]= [               l,               L,        numbersign,               9 ]
     };
-    key <AC10> {
+    key <AC10> { //ö
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [      odiaeresis,      Odiaeresis,               0,     doubleacute ]
+        symbols[Group1]= [      0,      0,               0,     doubleacute ]
     };
-    key <AC11> {
+    key <AC11> { //ä
         type= "FOUR_LEVEL_SEMIALPHABETIC",
-        symbols[Group1]= [      adiaeresis,      Adiaeresis,     asciicircum,     asciicircum ]
+        symbols[Group1]= [      Return,      Return,     asciicircum,     asciicircum ]
     };
     key <TLDE> {
         type= "FOUR_LEVEL",
@@ -122,7 +136,7 @@ xkb_symbols "pax" {
     key <LFSH> {         [         Shift_L ] };
     key <BKSL> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [      numbersign,      apostrophe,           grave,           grave ]
+        symbols[Group1]= [      Return,      Return,           grave,           grave ]
     };
     key <AB01> {
         type= "FOUR_LEVEL_SEMIALPHABETIC",
@@ -175,4 +189,6 @@ xkb_symbols "pax" {
     };
 
     key  <ESC> {         [          asciicircum, degree ] };
+    key <RTSH> {         [         Delete ] };
+    key <HKTG>   {      [ BackSpace, BackSpace ]       };
 };
