@@ -1,0 +1,10 @@
+// tweaks for "FILCO Majestouch Minila" keyboard
+
+default partial
+xkb_keycodes "basic" {
+    <FN> = 133; // orig: <LWIN>
+    <LWIN> = 64; // orig: <LALT>
+    <LALT> = 102; // orig: <MUHE>
+
+    <RCTL> = 101; // orig: <HKTG> ("Kana")
+};

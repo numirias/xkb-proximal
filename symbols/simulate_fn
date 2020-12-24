@@ -1,9 +1,0 @@
-default xkb_symbols "simulate_fn" {
-    modifier_map Mod3   { <FN> };
-
-    key <FN> {
-        type[Group1] = "ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level5_Shift ]
-    };
-
-};

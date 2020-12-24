@@ -1,0 +1,54 @@
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    name[Group1]="nius custom";
+
+    key <ESC>  {[ asciicircum, dollar,         NoSymbol,     NoSymbol   ]};
+    key <AE01> {[ 1,           exclam,         NoSymbol,     NoSymbol   ]};
+    key <AE02> {[ 2,           quotedbl,       NoSymbol,     NoSymbol   ]};
+    key <AE03> {[ 3,           dead_diaeresis, NoSymbol,     NoSymbol   ]};
+    key <AE04> {[ 4,           dollar,         NoSymbol,     NoSymbol   ]};
+    key <AE05> {[ 5,           percent,        NoSymbol,     NoSymbol   ]};
+    key <AE06> {[ 6,           ampersand,      NoSymbol,     NoSymbol   ]};
+    key <AE07> {[ 7,           slash,          NoSymbol,     NoSymbol   ]};
+    key <AE08> {[ 8,           parenleft,      NoSymbol,     NoSymbol   ]};
+    key <AE09> {[ 9,           parenright,     NoSymbol,     NoSymbol   ]};
+    key <AE10> {[ 0,           equal,          NoSymbol,     NoSymbol   ]};
+
+    key <AD01> {[ NoSymbol,    NoSymbol,       at,           NoSymbol   ]};
+    key <AD02> {[ NoSymbol,    NoSymbol,       grave,        acute      ]};
+    key <AD03> {[ NoSymbol,    NoSymbol,       apostrophe,   EuroSign   ]};
+    key <AD04> {[ NoSymbol,    NoSymbol,       backslash                ]};
+    key <AD05> {[ NoSymbol,    NoSymbol,       percent                  ]};
+    key <AD06> {[ NoSymbol,    NoSymbol,       ampersand                ]};
+    key <AD07> {[ NoSymbol,    NoSymbol,       asciitilde               ]};
+    key <AD08> {[ NoSymbol,    NoSymbol,       equal                    ]};
+    key <AD09> {[ NoSymbol,    NoSymbol,       slash,        0          ]};
+    key <AD10> {[ NoSymbol,    NoSymbol,       asterisk                 ]};
+
+    key <AC01> {[ NoSymbol,    NoSymbol,       parenleft,    1          ]};
+    key <AC02> {[ NoSymbol,    NoSymbol,       parenright,   2          ]};
+    key <AC03> {[ NoSymbol,    NoSymbol,       braceleft,    3          ]};
+    key <AC04> {[ NoSymbol,    NoSymbol,       braceright,   4          ]};
+    key <AC05> {[ NoSymbol,    NoSymbol,       dollar,       5          ]};
+    key <AC06> {[ NoSymbol,    NoSymbol,       numbersign,   6          ]};
+    key <AC07> {[ NoSymbol,    NoSymbol,       bracketleft,  7          ]};
+    key <AC08> {[ NoSymbol,    NoSymbol,       bracketright, 8          ]};
+    key <AC09> {[ NoSymbol,    NoSymbol,       question,     9          ]};
+
+    key <AB01> {[ NoSymbol,    NoSymbol,       less                     ]};
+    key <AB02> {[ NoSymbol,    NoSymbol,       greater                  ]};
+    key <AB03> {[ NoSymbol,    NoSymbol,       semicolon                ]};
+    key <AB04> {[ NoSymbol,    NoSymbol,       colon                    ]};
+    key <AB05> {[ NoSymbol,    NoSymbol,       bar                      ]};
+    key <AB06> {[ NoSymbol,    NoSymbol,       plus                     ]};
+    key <AB07> {[ NoSymbol,    NoSymbol,       minus                    ]};
+    key <AB08> {[ NoSymbol,    NoSymbol,       equal,        comma      ]};
+    key <AB09> {[ period,      colon,          period,       period     ]};
+
+    key <TAB>  {[ Tab,         Tab,            Tab,          Tab        ]};
+    key <CAPS> {[ Escape                                                ]};
+    key <SPCE> {[ space,       space,          underscore,   underscore ]};
+    key <RCTL> {[ BackSpace,   BackSpace                                ]};
+    key <RTSH> {[ Delete                                                ]};
+};
